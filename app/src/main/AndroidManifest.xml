@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShpargalkaFish">
         <activity
+            android:name=".Second_Activity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
