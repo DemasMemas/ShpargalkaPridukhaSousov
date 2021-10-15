@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/fishPicture"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/imagetext"
-        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+        android:layout_height="match_parent" />
 </LinearLayout>
