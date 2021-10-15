@@ -2,12 +2,12 @@ package com.example.shpargalkafish;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,6 +25,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int pos, long id){
                 String selectedItem = fishes[pos];
+                Intent intentinfo = new Intent(MainActivity.this, Second_Activity.class);
+                intentinfo.putExtra("choice", selectedItem);
+                startActivity(intentinfo);
             }
         });}
     }
