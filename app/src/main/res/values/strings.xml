@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">ShpargalkaFish</string>
+    <string name="app_name">Вики по рыбам</string>
     <string name="imagetext">Картинка рыбы</string>
+    <string name="buttontext">Показать фото</string>
 </resources>
