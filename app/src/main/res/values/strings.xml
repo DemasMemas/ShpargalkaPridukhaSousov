@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ShpargalkaFish</string>
+    <string name="AskForTurn">Пожалуйста, переверните экран</string>
 </resources>
