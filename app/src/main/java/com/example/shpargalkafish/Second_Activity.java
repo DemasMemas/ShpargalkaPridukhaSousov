@@ -31,8 +31,10 @@ public class Second_Activity extends AppCompatActivity{
         } catch (IOException e) {
             Toast.makeText(this, "Ошибка", Toast.LENGTH_LONG).show();
         }
+        TextView header = findViewById(R.id.textView2);
         TextView info = findViewById(R.id.textView);
         info.setText(finalStr);
+        header.setText(getIntent().getStringExtra("choice"));
 }
     public void showPicture(View view){
         Intent pictureIntent = new Intent(Second_Activity.this, Third_Activity.class);
