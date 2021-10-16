@@ -26,7 +26,7 @@ public class Third_Activity extends AppCompatActivity{
             picture.setScaleType(ImageView.ScaleType.FIT_XY);
         }
         catch(IOException e) {
-            Toast.makeText(this, "Œ¯Ë·Í‡", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "–û—à–∏–±–∫–∞", Toast.LENGTH_LONG).show();
         }
     }
 
