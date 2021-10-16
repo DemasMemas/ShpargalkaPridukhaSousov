@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@drawable/bg_water"
     >
 
     <TextView
@@ -14,7 +15,8 @@
         android:layout_weight="11"
         android:gravity="center"
         android:text=""
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
 
     <Button
         android:id="@+id/button"
